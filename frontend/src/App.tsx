@@ -1,12 +1,19 @@
 import './index.css';
-
-import { DataTable } from './components/DataTable';
+import { SalesCard } from './components/SalesCard';
 import { NavBar } from './components/NavBar';
+
 function App() {
   return (
     <>
-      <NavBar/>
-      <DataTable/>
+      <NavBar />
+      <main>
+        <section id="sales">
+          <div className="dsmeta-container">
+            <SalesCard />
+          </div>
+        </section>
+      </main>
+
     </>
   )
 }

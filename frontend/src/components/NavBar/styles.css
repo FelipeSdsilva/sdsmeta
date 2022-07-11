@@ -1,3 +1,18 @@
+header {
+    height: 220px;
+    background: linear-gradient(180deg, #102347 0%, #181818 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a,
+a:hover,
+a:visited {
+    color: unset;
+    text-decoration: none;
+}
+
 .dsmeta-logo-container {
     display: flex;
     flex-direction: column;
@@ -12,4 +27,7 @@
 .dsmeta-logo-container p {
     font-size: 14px;
     font-weight: 300;
+}
+.logo-gitHub{
+    height: 20px;
 }

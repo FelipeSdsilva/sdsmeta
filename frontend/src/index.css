@@ -13,17 +13,41 @@ html {
     background-color: #000000;
 }
 
-header {
-    height: 220px;
-    background: linear-gradient(180deg, #102347 0%, #181818 100%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#sales {
+    padding: 40px 10px;
 }
 
-a,
-a:hover,
-a:visited {
-    color: unset;
-    text-decoration: none;
+.dsmeta-container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.show576,
+.show992 {
+    display: none;
+}
+
+@media (min-width: 576px) {
+    .show576 {
+        display: table-cell;
+    }
+
+    .dsmeta-card {
+        padding: 35px;
+    }
+
+    .dsmeta-sales-table tbody tr {
+        height: 55px;
+        border-top: 1px solid #5F6E82;
+    }
+
+    .dsmeta-sales-table tbody {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 992px) {
+    .show992 {
+        display: table-cell;
+    }
 }
