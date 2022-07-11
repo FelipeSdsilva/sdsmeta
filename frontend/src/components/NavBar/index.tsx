@@ -1,3 +1,4 @@
+import './styles.css';
 import NavImg from '../../assets/img/image 1.svg';
 
 export const NavBar = () => {

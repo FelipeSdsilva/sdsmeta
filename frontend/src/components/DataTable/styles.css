@@ -1,0 +1,72 @@
+#sales {
+    padding: 40px 10px;
+}
+
+.dsmeta-container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.dsmeta-card {
+    background-color: #283142;
+    border-radius: 10px;
+    padding: 30px 10px;
+}
+
+.dsmeta-sales-title {
+    font-size: 24px;
+    color: #676FFF;
+    margin-bottom: 20px;
+}
+
+.dsmeta-form-control-container {
+    margin-bottom: 16px;
+    max-width: 300px;
+}
+
+.dsmeta-form-control {
+    height: 46px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #1B2531;
+    border: 1px solid #384459;
+    border-radius: 5px;
+    color: #9AAABE;
+    padding: 0 20px;
+    font-size: 18px;
+}
+
+.dsmeta-sales-table {
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.dsmeta-sales-table thead {
+    font-size: 16px;
+    height: 55px;
+    color: #E9E9E9;
+
+}
+
+.dsmeta-sales-table tbody {
+    font-size: 14px;
+    font-weight: 400;
+    height: 74px;
+    color: #CFCFCF;
+    text-align: center;
+}
+
+.dsmeta-sales-table tbody tr {
+    height: 74px;
+    border-top: 1px solid #5F6E82;
+}
+
+.dsmeta-sales-table tbody tr:hover>td {
+    background-color: #384459;
+}
+
+.dsmeta-sales-table tbody tr:nth-child(odd) {
+    background-color: #242C3B;
+}

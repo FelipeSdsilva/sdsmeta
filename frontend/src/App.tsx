@@ -1,4 +1,5 @@
-import './assets/css/Main.css';
+import './index.css';
+
 import { DataTable } from './components/DataTable';
 import { NavBar } from './components/NavBar';
 function App() {
